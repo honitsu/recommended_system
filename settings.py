@@ -12,14 +12,7 @@ custom_color = ["brown","burlywood","cadetblue","chartreuse","chocolate","coral"
             "darkorchid","darkred","darksalmon","darkseagreen","darkslateblue","darkslategray",
             "darkslategrey","darkturquoise","darkviolet","deeppink","deepskyblue","dimgray",
             "dimgrey","dodgerblue","firebrick","floralwhite"]
-if os.environ['COMPUTERNAME']=='LIANLI':
-    cache_dir = os.environ['USERPROFILE'] + "\\Documents\\unik\\cache\\"
-else:
-    cache_dir = ".\\cache\\"
-    for dirname, _, filenames in os.walk(cache_dir):
-        files = filter(lambda file: file.endswith('.csv'), filenames)
-    for filename in files:
-        print(os.path.join(dirname, filename))
+cache_dir = ".\\cache\\"
 
 file_oct = cache_dir + "2019-Oct.csv"
 file_nov = cache_dir + "2019-Nov.csv"  
