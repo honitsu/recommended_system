@@ -4,7 +4,7 @@ nb-main.ipynb # Всегда первый
 * settings.py
 * user_func.py
 
-## Все варианты с метриками по 14 (0-13) сегментам
+## Все варианты с метриками по 13 (0-12) сегментам
 * lightfm.ipynb
 * ncf-py39.ipynb
 * rbm-py39.ipynb
