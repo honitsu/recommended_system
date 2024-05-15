@@ -10,3 +10,7 @@ nb-main.ipynb # Всегда первый
 * rbm-py39.ipynb
 * svd.ipynb
 * hybrid-cosine.ipynb
+
+
+Для разработки рекомендательной системы был использован [следующий датасет](https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store) (файлы 2019-Oct.csv и 2019-Nov.csv).
+* Файлы нужно распаковать и поместить в попдпапку ./cache *
