@@ -6,7 +6,7 @@ nb-main.ipynb # Всегда первый
 
 ## Все варианты с метриками по 13 (0-12) сегментам
 * lightfm.ipynb
-* ncf-py39.ipynb
+* ncf.ipynb
 * rbm-py39.ipynb
 * svd.ipynb
 * hybrid-cosine.ipynb
